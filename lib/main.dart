@@ -32,12 +32,12 @@ class MyApp extends StatefulWidget {
 
 class _State extends State<MyApp> {
   /*Your webservice host URL, Keet the defined host when kTry = true */
-  static final String kBaseURL = "https://api.videoiq.airtel.in/";
+  static final String kBaseURL = "https://demo.videoiq.airtel.in/";
   /* To try the app with Enablex hosted service you need to set the kTry = true */
   static bool kTry = true;
   /*Use enablec portal to create your app and get these following credentials*/
-  static final String kAppId = "";
-  static final String kAppkey = "";
+  static final String kAppId = "App_id";
+  static final String kAppkey = "App_key";
   var header = (kTry)
       ? {
           "x-app-id": kAppId,
